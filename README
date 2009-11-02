@@ -1,0 +1,26 @@
+excel2csv - dump all worksheets from an Excel file to CSV files
+===============================================================
+
+The original script was written by Drew Broadley, with contributions from Aristotle Pagaltzis.
+Packaged by Leo Charre leocharre at cpan dot org.
+
+excel2csv takes any number of Excel files on the command line, reads them, and dumps 
+each worksheet therein to a separate CSV file, named after the worksheet.
+
+INSTALLATION
+
+perl Makefile.PL
+make install
+
+DEPENDENCIES
+
+   Getopt::Long
+   Pod::Usage
+   Spreadsheet::ParseExcel
+
+LICENCE
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.8 or,
+at your option, any later version of Perl 5 you may have available.
+   
